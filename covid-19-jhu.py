@@ -3,6 +3,13 @@
 # name: covid-19-jhu
 # deployed: true
 # config: index
+# schedule:
+#   frequency: daily
+#   timezone: UTC
+#   days:
+#   times:
+#   - hour: 7
+#     minute: 5
 # title: Covid-19 Data (Johns Hopkins)
 # description: Returns compiled searchable data from the John Hopkins Covid-19 GitHub Repository
 # params:
