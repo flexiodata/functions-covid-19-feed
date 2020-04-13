@@ -51,14 +51,19 @@
 # examples:
 #   - '"country_region, province_state, location, confirmed, deaths, recovered"'
 #   - '"", "location:\"New York City\""'
-#   - '"country_region, province_state, location, confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
+#   - '"confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
 # notes: |-
 #   Additional Resources:
-#   Johns Hopkins Covid-19 GitHub Repo Source Data: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
-#   Johns Hopkins Covid-19 GitHub Repo Source Data README: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
-#   Johns Hopkins Covid-19 GitHub Repo: https://github.com/CSSEGISandData/COVID-19
-#   Johns Hopkins Covid-19 Visualization: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-#   Johns Hopkins Center for Systems Science and Engineering (CSSE): https://systems.jhu.edu/
+#   * Johns Hopkins Covid-19 GitHub Repo Source Data: \
+#     https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+#   * Johns Hopkins Covid-19 GitHub Repo Source Data README: \
+#     https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+#   * Johns Hopkins Covid-19 GitHub Repo: \
+#     https://github.com/CSSEGISandData/COVID-19
+#   * Johns Hopkins Covid-19 Visualization: \
+#     https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+#   * Johns Hopkins Center for Systems Science and Engineering (CSSE): \
+#     https://systems.jhu.edu/
 # ---
 
 
