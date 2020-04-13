@@ -58,7 +58,7 @@
 # examples:
 #   - '"country_region, province_state, location, confirmed, deaths, recovered"'
 #   - '"", "location:\"New York City\""'
-#   - '"confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
+#   - '"location, confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
 # notes: |-
 #   Additional Resources:
 #   * Johns Hopkins Covid-19 GitHub Repo Source Data: \
