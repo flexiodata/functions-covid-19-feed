@@ -1,7 +1,66 @@
 
-# https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-# https://github.com/CSSEGISandData/COVID-19
-# https://systems.jhu.edu/
+# ---
+# name: covid-19-jhu
+# deployed: true
+# config: index
+# title: Covid-19 Data (Johns Hopkins)
+# description: Returns compiled searchable data from the John Hopkins Covid-19 GitHub Repository
+# params:
+#   - name: properties
+#     type: array
+#     description: The properties to return, given as a string or array; defaults to all properties; see "Returns" for available properties
+#     required: false
+#   - name: filter
+#     type: array
+#     description: Search query to determine the rows to return, given as a string or array
+#     required: false
+# returns:
+#   - name: country_region
+#     type: string
+#     description: The country/region name
+#   - name: province_state
+#     type: string
+#     description: The province/state name
+#   - name: location
+#     type: string
+#     description:
+#   - name: latitude
+#     type: number
+#     description: The latitude for the location
+#   - name: longitude
+#     type: number
+#     description: The longitude for the location
+#   - name: confirmed
+#     type: number
+#     description: The number of confirmed cases
+#   - name: deaths
+#     type: number
+#     description: The number of deaths
+#   - name: recovered
+#     type: number
+#     description: The number of recovered cases
+#   - name: active
+#     type: number
+#     description: The number of active cases
+#   - name: last_update
+#     type: date
+#     description: The date of the information in UTC
+#   - name: fips
+#     type: number
+#     description: The fips number
+# examples:
+#   - '"country_region, province_state, location, confirmed, deaths, recovered"'
+#   - '"", "location:\"New York City\""'
+#   - '"country_region, province_state, location, confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
+# notes: |-
+#   Additional Resources:
+#   Johns Hopkins Covid-19 GitHub Repo Source Data: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+#   Johns Hopkins Covid-19 GitHub Repo Source Data README: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+#   Johns Hopkins Covid-19 GitHub Repo: https://github.com/CSSEGISandData/COVID-19
+#   Johns Hopkins Covid-19 Visualization: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+#   Johns Hopkins Center for Systems Science and Engineering (CSSE): https://systems.jhu.edu/
+# ---
+
 
 import csv
 import json
