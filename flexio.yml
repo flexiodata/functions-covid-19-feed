@@ -1,0 +1,8 @@
+title: Covid-19 Integration
+description: Functions for information about covid-19
+image:
+  src: https://static.flex.io/assets/logos2/sample-data.png
+  alt: Sample data logo
+functions:
+  - path: covid-19-jhu.py
+prompts: []
