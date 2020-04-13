@@ -6,7 +6,7 @@
 # schedule:
 #   frequency: daily
 #   timezone: UTC
-#   days:
+#   days: []
 #   times:
 #   - hour: 7
 #     minute: 5
