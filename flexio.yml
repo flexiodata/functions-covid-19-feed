@@ -1,8 +1,35 @@
 title: COVID-19
 description: Functions for information about COVID-19
+
 image:
   src: https://static.flex.io/assets/logos2/covid-19.png
   alt: COVID-19 logo
+
+templates:
+  - name: search-and-filter-jhu-covid-19-data
+    title: Search and filter Johns Hopkins University COVID-19 data 
+    description: 'Import and filter worldwide COVID-19 data from Johns Hopkins University's data repository'
+    gsheets_spreadsheet_id: 
+    excel_spreadsheet_path: ''
+    in_production: false
+    in_staging: false
+  - name: search-and-filter-nyt-covid-19-data
+    title: Search and filter New York Time's COVID-19 data 
+    description: 'Import and filter COVID-19 data from the New York Times data repository'
+    gsheets_spreadsheet_id: 
+    excel_spreadsheet_path: ''
+    in_production: false
+    in_staging: false
+  - name: lookup-testing-data-from-our-world-in-data
+    title: Lookup testing data for COVID-19 from Our World in Data
+    description: 'Import and filter testing data for COVID-19 data compiled by Our World in Data'
+    gsheets_spreadsheet_id: 
+    excel_spreadsheet_path: ''
+    in_production: false
+    in_staging: false
+
 functions:
   - path: covid-19-jhu.py
+
 prompts: []
+
