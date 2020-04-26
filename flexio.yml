@@ -5,6 +5,9 @@ image:
   src: https://static.flex.io/assets/logos2/covid-19.png
   alt: COVID-19 logo
 
+functions:
+  - path: covid-19-jhu.py
+
 templates:
   - name: search-and-filter-jhu-covid-19-data
     title: 'Search and filter Johns Hopkins University COVID-19 data' 
@@ -27,9 +30,6 @@ templates:
     excel_spreadsheet_path: ''
     in_production: false
     in_staging: false
-
-functions:
-  - path: covid-19-jhu.py
 
 prompts: []
 
