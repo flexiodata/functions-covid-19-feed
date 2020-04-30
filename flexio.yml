@@ -8,6 +8,7 @@ image:
 functions:
   - path: covid-19-cases-jhu.py
   - path: covid-19-cases-nyt.py
+  - path: covid-19-tests-owid.py
 
 templates:
   - name: search-and-filter-jhu-covid-19-data
