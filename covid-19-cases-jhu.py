@@ -1,6 +1,6 @@
 
 # ---
-# name: covid-19-jhu
+# name: covid-19-cases-jhu
 # deployed: true
 # config: index
 # schedule:
@@ -10,8 +10,8 @@
 #   times:
 #   - hour: 7
 #     minute: 5
-# title: Covid-19 Data (Johns Hopkins)
-# description: Returns compiled searchable data from the John Hopkins Covid-19 GitHub Repository
+# title: Covid-19 Cases (Johns Hopkins)
+# description: Returns data about Covid-19 cases from the John Hopkins Covid-19 GitHub Repository
 # params:
 #   - name: properties
 #     type: array

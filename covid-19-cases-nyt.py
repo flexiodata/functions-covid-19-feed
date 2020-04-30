@@ -1,6 +1,6 @@
 
 # ---
-# name: covid-19-nyt
+# name: covid-19-cases-nyt
 # deployed: true
 # config: index
 # schedule:
@@ -10,8 +10,8 @@
 #   times:
 #   - hour: 7
 #     minute: 0
-# title: Covid-19 Data (New York Times)
-# description: Returns compiled searchable data from the New York Times Covid-19 GitHub Repository
+# title: Covid-19 Cases (New York Times)
+# description: Returns data about Covid-19 cases from the New York Times Covid-19 GitHub Repository
 # params:
 #   - name: properties
 #     type: array

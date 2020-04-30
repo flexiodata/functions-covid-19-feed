@@ -6,8 +6,8 @@ image:
   alt: COVID-19 logo
 
 functions:
-  - path: covid-19-jhu.py
-  - path: covid-19-nyt.py
+  - path: covid-19-cases-jhu.py
+  - path: covid-19-cases-nyt.py
 
 templates:
   - name: search-and-filter-jhu-covid-19-data
