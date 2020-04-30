@@ -73,7 +73,6 @@
 #     https://systems.jhu.edu/
 # ---
 
-
 import csv
 import json
 import requests
@@ -82,7 +81,6 @@ from requests.packages.urllib3.util.retry import Retry
 from contextlib import closing
 from collections import OrderedDict
 from time import sleep
-
 
 def flex_handler(flex):
 
