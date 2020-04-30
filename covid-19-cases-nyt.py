@@ -45,7 +45,7 @@
 #   - '"", "location:\"New York City\""'
 #   - '"location, confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
 # notes: |-
-#   Data from The New York Times, based on reports from state and local health agencies \
+#   Data from The New York Times, based on reports from state and local health agencies
 #   Additional Resources:
 #   * New York Times Covid-19 GitHub Repo Source Data: \
 #     https://github.com/nytimes/covid-19-data
@@ -96,8 +96,8 @@ def get_item(row):
     # convert keys to lowercase and make sure the values are formatted
     row = {k.lower(): v for k, v in row.items()}
     item = OrderedDict()
-    item['state'] = to_number(row.get('state',''))
-    item['county'] = to_number(row.get('county',''))
+    item['state'] = row.get('state','')
+    item['county'] = row.get('county','')
     item['cases'] = to_number(row.get('cases',0))
     item['deaths'] = to_number(row.get('deaths',0))
     item['date'] = row.get('date','')
