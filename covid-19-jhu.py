@@ -53,7 +53,7 @@
 #     type: string
 #     description: The date of the information in UTC
 #   - name: fips
-#     type: number
+#     type: integer
 #     description: The fips number
 # examples:
 #   - '"country_region, province_state, location, confirmed, deaths, recovered"'
