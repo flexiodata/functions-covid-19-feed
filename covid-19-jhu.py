@@ -136,9 +136,6 @@ def get_files_to_download(repo, folder, mindate):
 
 def get_data(file_info):
 
-    # wait a little before requesting each file
-    sleep(0.25)
-
     # get the data
     headers = {
         'User-Agent': 'Flex.io Covid-19 Integration'
