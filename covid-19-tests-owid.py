@@ -28,16 +28,16 @@
 #   - name: date
 #     type: string
 #     description: The date of the tests
-#   - name: total
+#   - name: total_cumulative
 #     type: string
 #     description: The cumulative total number of tests performed
-#   - name: total_daily_change
+#   - name: total_cumulative_daily_change
 #     type: integer
 #     description: The daily change in cumulative total number of tests performed
-#   - name: total_per_thousand
+#   - name: total_cumulative_per_thousand
 #     type: number
 #     description: Cumulative total per thousand
-#   - name: total_per_thousand_daily_change
+#   - name: total_cumulative_per_thousand_daily_change
 #     type: number
 #     description: The daily change in cumulative total per thousand
 #   - name: three_day_rolling_mean_daily_change
@@ -114,10 +114,10 @@ def get_item(row):
     item = OrderedDict()
     item['entity'] = row.get('entity','')
     item['date'] = row.get('date','')
-    item['total'] = to_number(row.get('cumulative total',''))
-    item['total_daily_change'] = to_number(row.get('daily change in cumulative total',''))
-    item['total_per_thousand'] = to_number(row.get('cumulative total per thousand',''))
-    item['total_per_thousand_daily_change'] = to_number(row.get('daily change in cumulative total per thousand',''))
+    item['total_cumulative'] = to_number(row.get('cumulative total',''))
+    item['total_cumulative_daily_change'] = to_number(row.get('daily change in cumulative total',''))
+    item['total_cumulative_per_thousand'] = to_number(row.get('cumulative total per thousand',''))
+    item['total_cumulative_per_thousand_daily_change'] = to_number(row.get('daily change in cumulative total per thousand',''))
     item['three_day_rolling_mean_daily_change'] = to_number(row.get('3-day rolling mean daily change',''))
     item['three_day_rolling_mean_daily_change_per_thousand'] =to_number( row.get('3-day rolling mean daily change per thousand',''))
     item['source_url'] = row.get('source url','')
