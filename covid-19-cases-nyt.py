@@ -50,7 +50,7 @@
 #   * New York Times Covid-19 GitHub Repo Source Data: \
 #     https://github.com/nytimes/covid-19-data
 #   * New York Time Tracking Page: \
-#    https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html
+#     https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html
 # ---
 
 import csv
