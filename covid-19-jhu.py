@@ -38,19 +38,19 @@
 #     type: number
 #     description: The longitude for the location
 #   - name: confirmed
-#     type: number
+#     type: integer
 #     description: The number of confirmed cases
 #   - name: deaths
-#     type: number
+#     type: integer
 #     description: The number of deaths
 #   - name: recovered
-#     type: number
+#     type: integer
 #     description: The number of recovered cases
 #   - name: active
-#     type: number
+#     type: integer
 #     description: The number of active cases
-#   - name: last_update
-#     type: date
+#   - name: date
+#     type: string
 #     description: The date of the information in UTC
 #   - name: fips
 #     type: number
@@ -162,8 +162,8 @@ def get_item(row, date):
     item['deaths'] = to_number(row.get('deaths',0))
     item['recovered'] = to_number(row.get('recovered',0))
     item['active'] = to_number(row.get('active',0))
-    #item['last_update'] = row.get('last_update','')
-    item['last_update'] = date # use date from file because date in content is formatted variably
+    #item['date'] = row.get('last_update','')
+    item['date'] = date # use date from file because date in content is formatted variably
     item['fips'] = to_number(row.get('fips',''))
     return item
 
