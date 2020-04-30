@@ -9,7 +9,7 @@
 #   days: []
 #   times:
 #   - hour: 7
-#     minute: 0
+#     minute: 5
 # title: Covid-19 Cases (New York Times)
 # description: Returns data about Covid-19 cases from the New York Times Covid-19 GitHub Repository
 # params:

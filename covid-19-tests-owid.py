@@ -11,7 +11,7 @@
 #   - hour: 7
 #     minute: 0
 # title: Covid-19 Tests (Our World In Data)
-# description: Returns data about Covid-19 cases from the New York Times Covid-19 GitHub Repository
+# description: Returns data about Covid-19 cases from the Our World In Data Covid-19 GitHub Repository
 # params:
 #   - name: properties
 #     type: array

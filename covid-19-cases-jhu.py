@@ -9,7 +9,7 @@
 #   days: []
 #   times:
 #   - hour: 7
-#     minute: 5
+#     minute: 10
 # title: Covid-19 Cases (Johns Hopkins)
 # description: Returns data about Covid-19 cases from the John Hopkins Covid-19 GitHub Repository
 # params:
