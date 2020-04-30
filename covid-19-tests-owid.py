@@ -56,7 +56,7 @@
 #     type: string
 #     description: Notes for the information
 # examples:
-#   - '"entity,date,total"'
+#   - '"entity,date,total_cumulative"'
 #   - '"", "+CDC +\"United States\""'
 # notes: |-
 #   Data from Our World In Data, based on data collected by the Our World in Data team from official reports
