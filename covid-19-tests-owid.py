@@ -28,6 +28,24 @@
 #   - name: date
 #     type: string
 #     description: The date of the tests
+#   - name: total
+#     type: string
+#     description: The cumulative total number of tests performed
+#   - name: total_daily_change
+#     type: integer
+#     description: The daily change in cumulative total number of tests performed
+#   - name: total_per_thousand
+#     type: number
+#     description: Cumulative total per thousand
+#   - name: total_per_thousand_daily_change
+#     type: number
+#     description: The daily change in cumulative total per thousand
+#   - name: three_day_rolling_mean_daily_change
+#     type: number
+#     description: The three-day rolling mean daily change
+#   - name: three_day_rolling_mean_daily_change_per_thousand
+#     type: number
+#     description: The three-day rolling mean daily change per thousand
 #   - name: source_url
 #     type: string
 #     description: The source url for the information
@@ -37,26 +55,9 @@
 #   - name: notes
 #     type: string
 #     description: Notes for the information
-#   - name: total
-#     type: string
-#     description: The cumulative total number of tests performed
-#   - name: total_daily_change
-#     type: integer
-#     description: The daily change in cumulative total number of tests performed
-#   - name: total_per_thousand
-#     type: integer
-#     description: Cumulative total per thousand
-#   - name: total_per_thousand_daily_change
-#     type: integer
-#     description: The daily change in cumulative total per thousand
-#   - name: three_day_rolling_mean_daily_change
-#     type: number
-#     description: The three-day rolling mean daily change
-#   - name: three_day_rolling_mean_daily_change_per_thousand
-#     type: number
-#     description: The three-day rolling mean daily change per thousand
 # examples:
-#   - '""'
+#   - '"entity,date,total"'
+#   - '"", "+CDC +\"United States\""'
 # notes: |-
 #   Data from Our World In Data, based on data collected by the Our World in Data team from official reports
 #   Additional Resources:
@@ -113,15 +114,15 @@ def get_item(row):
     item = OrderedDict()
     item['entity'] = row.get('entity','')
     item['date'] = row.get('date','')
-    item['source_url'] = row.get('source url','')
-    item['source_label'] = row.get('source label','')
-    item['notes'] = row.get('notes','')
     item['total'] = to_number(row.get('cumulative total',''))
     item['total_daily_change'] = to_number(row.get('daily change in cumulative total',''))
     item['total_per_thousand'] = to_number(row.get('cumulative total per thousand',''))
     item['total_per_thousand_daily_change'] = to_number(row.get('daily change in cumulative total per thousand',''))
     item['three_day_rolling_mean_daily_change'] = to_number(row.get('3-day rolling mean daily change',''))
     item['three_day_rolling_mean_daily_change_per_thousand'] =to_number( row.get('3-day rolling mean daily change per thousand',''))
+    item['source_url'] = row.get('source url','')
+    item['source_label'] = row.get('source label','')
+    item['notes'] = row.get('notes','')
     return item
 
 def requests_retry_session(
