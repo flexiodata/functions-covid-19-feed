@@ -41,9 +41,9 @@
 #     type: integer
 #     description: The fips number
 # examples:
-#   - '"country_region, province_state, location, confirmed, deaths, recovered"'
-#   - '"", "location:\"New York City\""'
-#   - '"location, confirmed, deaths", "+Illinois +deaths:>=5 +last_update:[2020-04-12 TO 2020-04-12]"'
+#   - '"date, state, county, cases, deaths"'
+#   - '"", "\"New York\""'
+#   - '"county, cases", "+Illinois +date:2020-04-01"'
 # notes: |-
 #   Data from The New York Times, based on reports from state and local health agencies
 #   Additional Resources:
