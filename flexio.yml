@@ -16,22 +16,22 @@ templates:
     description: 'Import and filter worldwide COVID-19 data compiled by Johns Hopkins University'
     gsheets_spreadsheet_id: '1Hx3nMXzFN4p2dujMq9s2EduE85jzo1a6zb7HJ_QaoQE'
     excel_spreadsheet_path: 'https://static.flex.io/templates/covid-19/covid-19-search-and-filter-john-hopkins-data.xlsx'
-    in_production: true
-    in_staging: false
+    is_public: true
+    is_private: false
   - name: search-and-filter-nyt-covid-19-data
     title: 'Search and filter New York Times COVID-19 data'
     description: 'Import and filter COVID-19 data compiled by the New York Times'
     gsheets_spreadsheet_id: '1HcibRaBNKWSBHHlZ4lBBnPHc6EKC2GxpianZAJ4LFR4'
     excel_spreadsheet_path: 'https://static.flex.io/templates/covid-19/covid-19-search-and-filter-new-york-times-data.xlsx'
-    in_production: true
-    in_staging: false
+    is_public: true
+    is_private: false
   - name: lookup-covid-19-testing-data
     title: 'Lookup COVID-19 testing data'
     description: 'Import and filter COVID-19 testing data compiled by Our World in Data'
     gsheets_spreadsheet_id: '1-ASrKmARvL64oNekpGB-PG3DZu9JtCm597_XpmpjgF4'
     excel_spreadsheet_path: 'https://static.flex.io/templates/covid-19/covid-19-lookup-testing-data-from-our-world-in-data.xlsx'
-    in_production: true
-    in_staging: false    
+    is_public: true
+    is_private: false
 
 prompts: []
 
