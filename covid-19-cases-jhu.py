@@ -3,13 +3,6 @@
 # name: covid-19-cases-jhu
 # deployed: true
 # config: index
-# schedule:
-#   frequency: daily
-#   timezone: UTC
-#   days: []
-#   times:
-#   - hour: 7
-#     minute: 10
 # title: Covid-19 Cases (Johns Hopkins)
 # description: Returns data about Covid-19 cases from the John Hopkins Covid-19 GitHub Repository
 # params:

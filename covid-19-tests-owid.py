@@ -3,13 +3,6 @@
 # name: covid-19-tests-owid
 # deployed: true
 # config: index
-# schedule:
-#   frequency: daily
-#   timezone: UTC
-#   days: []
-#   times:
-#   - hour: 7
-#     minute: 0
 # title: Covid-19 Tests (Our World In Data)
 # description: Returns data about Covid-19 tests from the Our World In Data Covid-19 GitHub Repository
 # params:
