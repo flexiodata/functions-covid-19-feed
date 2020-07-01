@@ -10,6 +10,11 @@ functions:
   - path: covid-19-cases-jhu.py
   - path: covid-19-cases-nyt.py
   - path: covid-19-tests-owid.py
+config:
+  - name: search_default_result_size
+    value: 1000
+  - name: search_max_result_size
+    value: 5000
 
 templates:
   - name: search-and-filter-jhu-covid-19-data
