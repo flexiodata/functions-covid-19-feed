@@ -5,6 +5,7 @@ image:
   src: https://static.flex.io/assets/logos2/covid-19.png
   alt: COVID-19 logo
 
+authentication: feed-covid-19-authentication.py
 functions:
   - path: covid-19-cases-jhu.py
   - path: covid-19-cases-nyt.py
