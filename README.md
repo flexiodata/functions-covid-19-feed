@@ -8,17 +8,17 @@ A variety of data about Covid-19 is available on GitHub in CSV format. Three imp
 
 The Flex.io Covid-19 spreadsheet functions allow data from these sources to be easily accessed in a spreadsheet as a function with search capabilities. Here are some examples:
 
-Return rows containing "Illinois" and "Cook" between 2020-04-01 and 2020-04-30 with all information from John's Hopkin's Covid-19 incident data:
+* Return rows containing "Illinois" and "Cook" between 2020-04-01 and 2020-04-30 with all information from John's Hopkin's Covid-19 incident data:
 ```
 =FLEX("covid-19-cases-jhu", "*", "+Illinois +Cook +date:[2020-04-01 TO 2020-04-30]")
 ```
 
-Return rows containing "Illinois" for "2020-04-01" with all information from New York Times Covid-19 incident data:
+* Return rows containing "Illinois" for "2020-04-01" with all information from New York Times Covid-19 incident data:
 ```
 =FLEX("covid-19-cases-nyt", "*", "+Illinois +date:2020-04-01")
 ```
 
-Return rows containing "CDC" and "United States" with all information from "Our World In Data" Covid-19 test data:
+* Return rows containing "CDC" and "United States" with all information from "Our World In Data" Covid-19 test data:
 ```
 =FLEX("covid-19-tests-owid", "*", "+CDC +\"United States\"")
 ```
