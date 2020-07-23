@@ -17,6 +17,7 @@ The Flex.io Covid-19 spreadsheet functions allow data from these sources to be e
 * Return rows containing "CDC" and "United States" with all information from "Our World In Data" Covid-19 test data:
 ```
 =FLEX("covid-19-tests-owid", "*", "+CDC +\"United States\"")
+```
 
 This repository contains the code that implements the data feed to pull data from the various repositories to populate an index that powers the functions in the Flex.io Covid-19 integration. The actual functions are available in the [Flex.io Covid-19 Repository](https://github.com/flexiodata/functions-covid-19). See below for information about how to install the functions to access data from this feed.
 
