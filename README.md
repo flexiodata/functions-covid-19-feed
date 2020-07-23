@@ -57,30 +57,20 @@ Once you've installed the function pack, you're ready to use the functions.
 The data for the Flex.io Add-on is pulled from data curated by John's Hopkins University, the New York Times, and Our World In Data. The data for each of these is available per the individual licenses in each of the respective repositories. Here are links to the sources and related information.
 
 Data from Johns Hopkins Center for Systems Science and Engineering:
-  * Johns Hopkins Covid-19 GitHub Repo Source Data: \
-    https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
-  * Johns Hopkins Covid-19 GitHub Repo Source Data README: \
-    https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
-  * Johns Hopkins Covid-19 GitHub Repo: \
-    https://github.com/CSSEGISandData/COVID-19
-  * Johns Hopkins Covid-19 Visualization: \
-    https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-  * Johns Hopkins Center for Systems Science and Engineering (CSSE): \
-    https://systems.jhu.edu/
+  * [Johns Hopkins Covid-19 GitHub Repo Source Data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports)
+  * [Johns Hopkins Covid-19 GitHub Repo Source Data README](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
+  * [Johns Hopkins Covid-19 GitHub Repo](https://github.com/CSSEGISandData/COVID-19)
+  * [Johns Hopkins Covid-19 Visualization](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+  * [Johns Hopkins Center for Systems Science and Engineering (CSSE)](https://systems.jhu.edu/)
 
 Data from The New York Times, based on reports from state and local health agencies:
-  * New York Times Covid-19 GitHub Repo Source Data: \
-    https://github.com/nytimes/covid-19-data
-  * New York Times Covid-19 Tracking Page: \
-    https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html
+  * [New York Times Covid-19 GitHub Repo Source Data](https://github.com/nytimes/covid-19-data)
+  * [New York Times Covid-19 Tracking Page](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
 
 Data from Our World In Data, based on data collected by the Our World in Data team from official reports:
-  * Our World In Data Covid-19 GitHub Repo Source Data: \
-    https://github.com/owid/covid-19-data/tree/master/public/data
-  * Our World In Data Covid-19 Tracking Page: \
-    https://ourworldindata.org/coronavirus
-  * Our World In Data Covid-19 Testing Sources: \
-    https://ourworldindata.org/covid-testing#source-information-country-by-country
+  * [Our World In Data Covid-19 GitHub Repo Source Data](https://github.com/owid/covid-19-data/tree/master/public/data)
+  * [Our World In Data Covid-19 Tracking Page](https://ourworldindata.org/coronavirus)
+  * [Our World In Data Covid-19 Testing Sources](https://ourworldindata.org/covid-testing#source-information-country-by-country)
 
 ## Documentation
 
